@@ -1,0 +1,26 @@
+.easyfim-thumbnail-wrapper {
+    display: inline-block;
+    position: relative;
+}
+
+.easyfim-thumbnail-wrapper img {
+    max-width: 100px;
+    height: auto;
+}
+
+.easyfim-thumbnail-wrapper .easyfim-remove-image {
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    padding: 2px 4px;
+    font-size: 10px;
+    text-decoration: none;
+    border-radius: 2px;
+}
+
+.easyfim-thumbnail-wrapper .easyfim-remove-image:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+}
